@@ -40,6 +40,7 @@ IB_DESIGNABLE
 
 @property (nonatomic, assign) IBInspectable AvePurchaseButtonState buttonState;
 -(void)setButtonState:(AvePurchaseButtonState)buttonState animated:(BOOL)animated;
+-(void)updateTintColors;
 
 @property (nonatomic, strong) IBInspectable UIImage* image;
 
