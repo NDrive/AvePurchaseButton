@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0615883B21107B9200950AA3 /* AvePurchaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0615883921107B9200950AA3 /* AvePurchaseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0615884C21107B9C00950AA3 /* AveBorderedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0615884321107B9C00950AA3 /* AveBorderedButton.h */; };
 		0615884D21107B9C00950AA3 /* AveBorderedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0615884421107B9C00950AA3 /* AveBorderedView.h */; };
 		0615884E21107B9C00950AA3 /* AveBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0615884521107B9C00950AA3 /* AveBorderedButton.m */; };
 		0615884F21107B9C00950AA3 /* AveBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0615884621107B9C00950AA3 /* AveBorderedView.m */; };
-		0615885021107B9C00950AA3 /* AvePurchaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0615884821107B9C00950AA3 /* AvePurchaseButton.h */; };
+		0615885021107B9C00950AA3 /* AvePurchaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0615884821107B9C00950AA3 /* AvePurchaseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0615885121107B9C00950AA3 /* AvePurchaseActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0615884921107B9C00950AA3 /* AvePurchaseActivityIndicatorView.h */; };
 		0615885221107B9C00950AA3 /* AvePurchaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0615884A21107B9C00950AA3 /* AvePurchaseButton.m */; };
 		0615885321107B9C00950AA3 /* AvePurchaseActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0615884B21107B9C00950AA3 /* AvePurchaseActivityIndicatorView.m */; };
@@ -20,7 +19,6 @@
 
 /* Begin PBXFileReference section */
 		0615883621107B9200950AA3 /* AvePurchaseButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvePurchaseButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0615883921107B9200950AA3 /* AvePurchaseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvePurchaseButton.h; sourceTree = "<group>"; };
 		0615883A21107B9200950AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0615884321107B9C00950AA3 /* AveBorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveBorderedButton.h; sourceTree = "<group>"; };
 		0615884421107B9C00950AA3 /* AveBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveBorderedView.h; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 		0615883821107B9200950AA3 /* AvePurchaseButton */ = {
 			isa = PBXGroup;
 			children = (
-				0615883921107B9200950AA3 /* AvePurchaseButton.h */,
 				0615883A21107B9200950AA3 /* Info.plist */,
 			);
 			path = AvePurchaseButton;
@@ -112,7 +109,6 @@
 				0615885121107B9C00950AA3 /* AvePurchaseActivityIndicatorView.h in Headers */,
 				0615884D21107B9C00950AA3 /* AveBorderedView.h in Headers */,
 				0615884C21107B9C00950AA3 /* AveBorderedButton.h in Headers */,
-				0615883B21107B9200950AA3 /* AvePurchaseButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
